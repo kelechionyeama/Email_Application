@@ -2,7 +2,7 @@
 This is an email application built using the Django Framework.
 
 Information:
-- REST API built serveside
+- REST API built serverside
 - Javascript to connect the frontend to backend, pass and render data
 - Dynamic webpage, only 1 page used to render everything
 - Compose emails and send to others within the network
