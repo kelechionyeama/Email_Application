@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{% block title %}Mail{% endblock %}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'mail/styles.css' %}">
+        {% block script %}
+        {% endblock %}
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar-brand" style="display: flex; flex-wrap: wrap;">
+                <h1><span class="blue">D</span><span class="red">I</span><span class="yellow">S</span><span class="green">C</span><span class="blue">O</span><span class="red">V</span><span class="yellow">E</span><span class="green">R</span> <span class="red">Mail</span></h1>
+                <img src="{% static 'mail/mail_i.png' %}" alt="mail image" width="60" height="60">
+            </div>
+            <div>
+                {% block body %}
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

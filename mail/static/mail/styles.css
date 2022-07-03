@@ -1,0 +1,31 @@
+textarea {
+    min-height: 400px;
+}
+
+/* Colors for brand */
+.blue
+{
+    color: #537fbe;
+}
+.red
+{
+    color: #ea433b;
+}
+.yellow
+{
+    color: #f5b82e;
+}
+.green
+{
+    color: #2e944b;
+}
+
+
+.box {
+    width: 100%;
+    padding: 0.5em;
+    height: 250px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    cursor: pointer;
+}
